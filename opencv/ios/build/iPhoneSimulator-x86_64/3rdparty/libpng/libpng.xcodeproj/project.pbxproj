@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              5C9F4FA98CBE4FB8B0DFDD47 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = AAB8BA1EE0C04CB98BE6687D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            9FCB1F830FE842A78BB1FD09 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            A46EEDE91B494133A637C973 /* PBXTargetDependency */,
+                            2AE00DD1427349B1AD889D0F /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              F039CB77365541A190CF3E1F /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 4AE9436F75A040DD9660E323 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            ED1FC8C6250E4DB88625DF1B /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              6AA7AFCA66934EDB9E60EDEC /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 8B8F7CA727B24BFD83F8E6C7 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            8F2EBDDCAF4D43FFA2E81C58 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            0C499E2A386C4F3DA92BF6BE /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+              001AB1CED6B04F6EBB813D61 /* package */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = C6DDB5AFDA6E44A3BC6F6D3C /* Build configuration list for PBXAggregateTarget "package" */;
+                     buildPhases = (
+                            5E622284B3A2465CAF7A5C07 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            37B2ACDBB2CB4EB2822846E1 /* PBXTargetDependency */,
+                     );
+                     name = package;
+                     productName = package;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+D6666A0D3EEE48F999F38081 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 26B98556C8D54A0DA3F6D6AA /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+23F4629C91E440E28035EA56 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/png.c */ = {isa = PBXBuildFile; fileRef = 78908590366344398CFE805F /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/png.c */; settings = { COMPILER_FLAGS = ""; }; };
+0B76F6A25E9D4987ABA0B93C /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/png.h */ = {isa = PBXBuildFile; fileRef = D0BEA774F0A24B88B057414D /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/png.h */; settings = { COMPILER_FLAGS = ""; }; };
+BCFDB10E3C584A5EA2D5161C /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngconf.h */ = {isa = PBXBuildFile; fileRef = F49EB78360B8489C8B168A84 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngconf.h */; settings = { COMPILER_FLAGS = ""; }; };
+A14082E0CB8746C6BB4116E7 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngdebug.h */ = {isa = PBXBuildFile; fileRef = 7013985775A1438594D8F842 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngdebug.h */; settings = { COMPILER_FLAGS = ""; }; };
+3276B416824E4A48840CFF4B /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngerror.c */ = {isa = PBXBuildFile; fileRef = FD2E322BCA974ECA9456FC3D /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngerror.c */; settings = { COMPILER_FLAGS = ""; }; };
+7F4950459C12410D95470121 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngget.c */ = {isa = PBXBuildFile; fileRef = 69DF294C901946AB8253A73A /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngget.c */; settings = { COMPILER_FLAGS = ""; }; };
+FD45C1C3EBEC40A8B7383765 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pnginfo.h */ = {isa = PBXBuildFile; fileRef = ADD05862F980429CB7C0BEF3 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pnginfo.h */; settings = { COMPILER_FLAGS = ""; }; };
+0EE5B7F09CD543AEB5DA6AA6 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pnglibconf.h */ = {isa = PBXBuildFile; fileRef = 9FCD0D0BDC3F482B9419FC6F /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pnglibconf.h */; settings = { COMPILER_FLAGS = ""; }; };
+67A3B33A77F944CAA0286B3C /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngmem.c */ = {isa = PBXBuildFile; fileRef = 358F7752EE6E490583AC4ACE /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngmem.c */; settings = { COMPILER_FLAGS = ""; }; };
+6B5849E81E474D888163CBBE /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngpread.c */ = {isa = PBXBuildFile; fileRef = 722CD165A44443798E323DFC /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngpread.c */; settings = { COMPILER_FLAGS = ""; }; };
+6F12ACF537494E44A788F1E9 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngpriv.h */ = {isa = PBXBuildFile; fileRef = 4B5A4532B196415C9A06B09B /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngpriv.h */; settings = { COMPILER_FLAGS = ""; }; };
+AA5630B7AD364365AF6DAE6B /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngread.c */ = {isa = PBXBuildFile; fileRef = 3AF1BE7EC7394377AEE487BB /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngread.c */; settings = { COMPILER_FLAGS = ""; }; };
+82D3B5F8117D457E8D5A3A52 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngrio.c */ = {isa = PBXBuildFile; fileRef = 6689C40BC26145B48718D504 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngrio.c */; settings = { COMPILER_FLAGS = ""; }; };
+6688ABEFD1BD4677A366819C /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngrtran.c */ = {isa = PBXBuildFile; fileRef = 8258A9E125A2467C99B0A274 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngrtran.c */; settings = { COMPILER_FLAGS = ""; }; };
+F76C3D84220D4B2D9C916597 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngrutil.c */ = {isa = PBXBuildFile; fileRef = 78180F2876DC40F28F1836CA /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngrutil.c */; settings = { COMPILER_FLAGS = ""; }; };
+681F4B3D47E7474BAADCB1EE /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngset.c */ = {isa = PBXBuildFile; fileRef = 60C211423785470DB2EC8AAE /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngset.c */; settings = { COMPILER_FLAGS = ""; }; };
+F81E216AB4174623A3EE98D0 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngstruct.h */ = {isa = PBXBuildFile; fileRef = 5B2D7FF444C34155B34298BB /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngstruct.h */; settings = { COMPILER_FLAGS = ""; }; };
+98C341340D4B40C5974B4293 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngtrans.c */ = {isa = PBXBuildFile; fileRef = 9C61FDEB9474442B908AC3E8 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngtrans.c */; settings = { COMPILER_FLAGS = ""; }; };
+E72EA3C0BB9740B88D69AD7A /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngwio.c */ = {isa = PBXBuildFile; fileRef = B2CFFA6429634E70840A6E28 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngwio.c */; settings = { COMPILER_FLAGS = ""; }; };
+02786A5FF1BC486D8A6FC398 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngwrite.c */ = {isa = PBXBuildFile; fileRef = 846133A5D064449EB3EB5B47 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngwrite.c */; settings = { COMPILER_FLAGS = ""; }; };
+1D2666C002F74ED599A9AF2A /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngwtran.c */ = {isa = PBXBuildFile; fileRef = 09720DEBE4AB4B08BD2AC96C /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngwtran.c */; settings = { COMPILER_FLAGS = ""; }; };
+53195C67BBD243B19C7C250F /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngwutil.c */ = {isa = PBXBuildFile; fileRef = 4222D45A2AF74DDD8F6EFBA8 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngwutil.c */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              3F0A67B7773E4BAA99DCE318 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              B8080BC732D442CAA6C8235F /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              C2E4B9E4490B432EB75A4590 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              D31BB6838DF8470F9AE84F2B /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 61942402246343FC8AC05254 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = D3E3211CD28A412D87243C86;
+                     remoteInfo = libpng;
+              };
+              211AEF29899E461EAD05B5B4 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 61942402246343FC8AC05254 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = F039CB77365541A190CF3E1F;
+                     remoteInfo = ZERO_CHECK;
+              };
+              A54A7805E4E348FD8BACFC0F /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 61942402246343FC8AC05254 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 5C9F4FA98CBE4FB8B0DFDD47;
+                     remoteInfo = ALL_BUILD;
+              };
+              B3C580EA33F546C3A9047B2C /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 61942402246343FC8AC05254 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = F039CB77365541A190CF3E1F;
+                     remoteInfo = ZERO_CHECK;
+              };
+              462F05F7EFFE49CE947C2023 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 61942402246343FC8AC05254 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 5C9F4FA98CBE4FB8B0DFDD47;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+A78E81F9EDB44218957AF4E1 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+CB721584B00C419D997A3802 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+26B98556C8D54A0DA3F6D6AA /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+78908590366344398CFE805F /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/png.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "png.c"; path = "png.c"; sourceTree = SOURCE_ROOT; };
+D0BEA774F0A24B88B057414D /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/png.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "png.h"; path = "png.h"; sourceTree = SOURCE_ROOT; };
+F49EB78360B8489C8B168A84 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngconf.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "pngconf.h"; path = "pngconf.h"; sourceTree = SOURCE_ROOT; };
+7013985775A1438594D8F842 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngdebug.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "pngdebug.h"; path = "pngdebug.h"; sourceTree = SOURCE_ROOT; };
+FD2E322BCA974ECA9456FC3D /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngerror.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngerror.c"; path = "pngerror.c"; sourceTree = SOURCE_ROOT; };
+69DF294C901946AB8253A73A /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngget.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngget.c"; path = "pngget.c"; sourceTree = SOURCE_ROOT; };
+ADD05862F980429CB7C0BEF3 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pnginfo.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "pnginfo.h"; path = "pnginfo.h"; sourceTree = SOURCE_ROOT; };
+9FCD0D0BDC3F482B9419FC6F /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pnglibconf.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "pnglibconf.h"; path = "pnglibconf.h"; sourceTree = SOURCE_ROOT; };
+358F7752EE6E490583AC4ACE /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngmem.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngmem.c"; path = "pngmem.c"; sourceTree = SOURCE_ROOT; };
+722CD165A44443798E323DFC /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngpread.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngpread.c"; path = "pngpread.c"; sourceTree = SOURCE_ROOT; };
+4B5A4532B196415C9A06B09B /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngpriv.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "pngpriv.h"; path = "pngpriv.h"; sourceTree = SOURCE_ROOT; };
+3AF1BE7EC7394377AEE487BB /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngread.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngread.c"; path = "pngread.c"; sourceTree = SOURCE_ROOT; };
+6689C40BC26145B48718D504 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngrio.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngrio.c"; path = "pngrio.c"; sourceTree = SOURCE_ROOT; };
+8258A9E125A2467C99B0A274 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngrtran.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngrtran.c"; path = "pngrtran.c"; sourceTree = SOURCE_ROOT; };
+78180F2876DC40F28F1836CA /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngrutil.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngrutil.c"; path = "pngrutil.c"; sourceTree = SOURCE_ROOT; };
+60C211423785470DB2EC8AAE /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngset.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngset.c"; path = "pngset.c"; sourceTree = SOURCE_ROOT; };
+5B2D7FF444C34155B34298BB /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngstruct.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "pngstruct.h"; path = "pngstruct.h"; sourceTree = SOURCE_ROOT; };
+9C61FDEB9474442B908AC3E8 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngtrans.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngtrans.c"; path = "pngtrans.c"; sourceTree = SOURCE_ROOT; };
+B2CFFA6429634E70840A6E28 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngwio.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngwio.c"; path = "pngwio.c"; sourceTree = SOURCE_ROOT; };
+846133A5D064449EB3EB5B47 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngwrite.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngwrite.c"; path = "pngwrite.c"; sourceTree = SOURCE_ROOT; };
+09720DEBE4AB4B08BD2AC96C /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngwtran.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngwtran.c"; path = "pngwtran.c"; sourceTree = SOURCE_ROOT; };
+4222D45A2AF74DDD8F6EFBA8 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngwutil.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngwutil.c"; path = "pngwutil.c"; sourceTree = SOURCE_ROOT; };
+D232809AA014448FA7094235 /* libpng */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "liblibpng.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              6CD1732F53764C3EA8FF8844  = {
+                     isa = PBXGroup;
+                     children = (
+                            9F83D4E5269B46939AE2E518 /* Sources */,
+                            6382DFFE10444B92A6534DFF /* Resources */,
+                            A9730B86C31046BAAB410439 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              9F83D4E5269B46939AE2E518 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B1F88A2C93B349B8ACC441CB /* 3rdparty */,
+                            31FBAAF4D1234CE99DD614C9 /* ALL_BUILD */,
+                            08A30A25740945749A789EBE /* ZERO_CHECK */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              6382DFFE10444B92A6534DFF /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              B1F88A2C93B349B8ACC441CB /* 3rdparty */ = {
+                     isa = PBXGroup;
+                     children = (
+                            BD0EE9C264D740FAA923EC16 /* libpng */,
+                     );
+                     name = 3rdparty;
+                     sourceTree = "<group>";
+              };
+              BD0EE9C264D740FAA923EC16 /* libpng */ = {
+                     isa = PBXGroup;
+                     children = (
+                            D985FCC55D0148BB9C0FFCD6 /* Source Files */,
+                            12A4F96F55284777841C44B3 /* Header Files */,
+                            26B98556C8D54A0DA3F6D6AA /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/CMakeLists.txt */,
+                     );
+                     name = libpng;
+                     sourceTree = "<group>";
+              };
+              D985FCC55D0148BB9C0FFCD6 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            78908590366344398CFE805F /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/png.c */,
+                            FD2E322BCA974ECA9456FC3D /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngerror.c */,
+                            69DF294C901946AB8253A73A /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngget.c */,
+                            358F7752EE6E490583AC4ACE /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngmem.c */,
+                            722CD165A44443798E323DFC /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngpread.c */,
+                            3AF1BE7EC7394377AEE487BB /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngread.c */,
+                            6689C40BC26145B48718D504 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngrio.c */,
+                            8258A9E125A2467C99B0A274 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngrtran.c */,
+                            78180F2876DC40F28F1836CA /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngrutil.c */,
+                            60C211423785470DB2EC8AAE /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngset.c */,
+                            9C61FDEB9474442B908AC3E8 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngtrans.c */,
+                            B2CFFA6429634E70840A6E28 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngwio.c */,
+                            846133A5D064449EB3EB5B47 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngwrite.c */,
+                            09720DEBE4AB4B08BD2AC96C /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngwtran.c */,
+                            4222D45A2AF74DDD8F6EFBA8 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngwutil.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              12A4F96F55284777841C44B3 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            D0BEA774F0A24B88B057414D /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/png.h */,
+                            F49EB78360B8489C8B168A84 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngconf.h */,
+                            7013985775A1438594D8F842 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngdebug.h */,
+                            ADD05862F980429CB7C0BEF3 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pnginfo.h */,
+                            9FCD0D0BDC3F482B9419FC6F /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pnglibconf.h */,
+                            4B5A4532B196415C9A06B09B /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngpriv.h */,
+                            5B2D7FF444C34155B34298BB /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngstruct.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              31FBAAF4D1234CE99DD614C9 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            4BFE41815E9048E5A5338ADB /* CMake Rules */,
+                            A78E81F9EDB44218957AF4E1 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              4BFE41815E9048E5A5338ADB /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              08A30A25740945749A789EBE /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            1E58A397C7344B0DB817A77B /* CMake Rules */,
+                            CB721584B00C419D997A3802 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              1E58A397C7344B0DB817A77B /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              A9730B86C31046BAAB410439 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            D232809AA014448FA7094235 /* libpng */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              D3E3211CD28A412D87243C86 /* libpng */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 5E737025B2C7445BA41E04B6 /* Build configuration list for PBXNativeTarget "libpng" */;
+                     buildPhases = (
+                            1DFE2B07F1864A2BA4BE2267 /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            D5D9F9FE535B4952B6A91D41 /* PBXTargetDependency */,
+                     );
+                     name = libpng;
+                     productName = libpng;
+                     productReference = D232809AA014448FA7094235 /* libpng */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              61942402246343FC8AC05254 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = D485114DD8FC4F58A44AB609 /* Build configuration list for PBXProject  "libpng" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            B8080BC732D442CAA6C8235F /* Debug */,
+                            C2E4B9E4490B432EB75A4590 /* Release */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 6CD1732F53764C3EA8FF8844;
+                     projectDirPath = "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng";
+                     projectRoot = "";
+                     targets = (
+                            5C9F4FA98CBE4FB8B0DFDD47 /* ALL_BUILD */,
+                            F039CB77365541A190CF3E1F /* ZERO_CHECK */,
+                            6AA7AFCA66934EDB9E60EDEC /* install */,
+                            D3E3211CD28A412D87243C86 /* libpng */,
+                            001AB1CED6B04F6EBB813D61 /* package */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              5FDA21CF1D44444FB57B5AB8 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              9FCB1F830FE842A78BB1FD09 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng -f /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              7EE5FBE85C49430CA3A75156 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              ED1FC8C6250E4DB88625DF1B /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng -f /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              922C97B7F58146F3BDCD6777 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              8F2EBDDCAF4D43FFA2E81C58 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng -f /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              00B4CC646E19471A9E69E840 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              5E622284B3A2465CAF7A5C07 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng -f /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              1DFE2B07F1864A2BA4BE2267 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            23F4629C91E440E28035EA56 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/png.c */,
+                            3276B416824E4A48840CFF4B /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngerror.c */,
+                            7F4950459C12410D95470121 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngget.c */,
+                            67A3B33A77F944CAA0286B3C /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngmem.c */,
+                            6B5849E81E474D888163CBBE /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngpread.c */,
+                            AA5630B7AD364365AF6DAE6B /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngread.c */,
+                            82D3B5F8117D457E8D5A3A52 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngrio.c */,
+                            6688ABEFD1BD4677A366819C /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngrtran.c */,
+                            F76C3D84220D4B2D9C916597 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngrutil.c */,
+                            681F4B3D47E7474BAADCB1EE /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngset.c */,
+                            98C341340D4B40C5974B4293 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngtrans.c */,
+                            E72EA3C0BB9740B88D69AD7A /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngwio.c */,
+                            02786A5FF1BC486D8A6FC398 /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngwrite.c */,
+                            1D2666C002F74ED599A9AF2A /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngwtran.c */,
+                            53195C67BBD243B19C7C250F /* /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng/pngwutil.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              A46EEDE91B494133A637C973 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = D3E3211CD28A412D87243C86 /* libpng */;
+                     targetProxy = D31BB6838DF8470F9AE84F2B /* PBXContainerItemProxy */;
+              };
+              2AE00DD1427349B1AD889D0F /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = F039CB77365541A190CF3E1F /* ZERO_CHECK */;
+                     targetProxy = 211AEF29899E461EAD05B5B4 /* PBXContainerItemProxy */;
+              };
+              0C499E2A386C4F3DA92BF6BE /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 5C9F4FA98CBE4FB8B0DFDD47 /* ALL_BUILD */;
+                     targetProxy = A54A7805E4E348FD8BACFC0F /* PBXContainerItemProxy */;
+              };
+              D5D9F9FE535B4952B6A91D41 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = F039CB77365541A190CF3E1F /* ZERO_CHECK */;
+                     targetProxy = B3C580EA33F546C3A9047B2C /* PBXContainerItemProxy */;
+              };
+              37B2ACDBB2CB4EB2822846E1 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 5C9F4FA98CBE4FB8B0DFDD47 /* ALL_BUILD */;
+                     targetProxy = 462F05F7EFFE49CE947C2023 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              132E2D90F059492790590338 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            SDKROOT = "/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk";
+                            SYMROOT = "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng/build";
+                     };
+                     name = Debug;
+              };
+              CE14845F14DC4FC0BDF337AB /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            SDKROOT = "/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk";
+                            SYMROOT = "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng/build";
+                     };
+                     name = Release;
+              };
+              3421FE3231B14323B75A1192 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", PNG_CONFIGURE_LIBPNG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/zlib", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/zlib", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              5FF47292CFAF4C14A68A25D7 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", PNG_CONFIGURE_LIBPNG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/zlib", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/zlib", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              8BBE2AEF430B485DBF0FC2F9 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", PNG_CONFIGURE_LIBPNG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/zlib", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/zlib", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              49DE100548EA4C8D9F9AAD50 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", PNG_CONFIGURE_LIBPNG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/zlib", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/zlib", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              BA7BE5702F914379BACBE89C /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/zlib", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/zlib", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              263028E0ED894741BF34CCBB /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/zlib", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/zlib", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              54AAAEE3C2CA40E990F9C1A6 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/lib/Debug";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", PNG_CONFIGURE_LIBPNG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/zlib", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/zlib", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "-Wno-implicit-function-declaration -fPIC   -fPIC         -DDEBUG -D_DEBUG  ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = libpng;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              198A18222E2E43A497137C7B /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/lib/Release";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", PNG_CONFIGURE_LIBPNG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/zlib", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/zlib", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "-Wno-implicit-function-declaration -fPIC   -fPIC     -DNDEBUG  -DNDEBUG  ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = libpng;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              3B72992D46A445F8AFFB1648 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/zlib", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/zlib", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              C5F28E3B165949DBBFE2FA3D /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/zlib", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/zlib", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/opencv/3rdparty/libpng", "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              D485114DD8FC4F58A44AB609 /* Build configuration list for PBXProject  "libpng" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            132E2D90F059492790590338 /* Debug */,
+                            CE14845F14DC4FC0BDF337AB /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              AAB8BA1EE0C04CB98BE6687D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            3421FE3231B14323B75A1192 /* Debug */,
+                            5FF47292CFAF4C14A68A25D7 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              4AE9436F75A040DD9660E323 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            8BBE2AEF430B485DBF0FC2F9 /* Debug */,
+                            49DE100548EA4C8D9F9AAD50 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              8B8F7CA727B24BFD83F8E6C7 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            BA7BE5702F914379BACBE89C /* Debug */,
+                            263028E0ED894741BF34CCBB /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              5E737025B2C7445BA41E04B6 /* Build configuration list for PBXNativeTarget "libpng" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            54AAAEE3C2CA40E990F9C1A6 /* Debug */,
+                            198A18222E2E43A497137C7B /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              C6DDB5AFDA6E44A3BC6F6D3C /* Build configuration list for PBXAggregateTarget "package" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            3B72992D46A445F8AFFB1648 /* Debug */,
+                            C5F28E3B165949DBBFE2FA3D /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 61942402246343FC8AC05254;
+}

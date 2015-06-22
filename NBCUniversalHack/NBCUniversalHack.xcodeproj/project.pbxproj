@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		452E25901AC70AC100F4C644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 452E258F1AC70AC100F4C644 /* main.m */; };
+		452E25931AC70AC100F4C644 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 452E25921AC70AC100F4C644 /* AppDelegate.m */; };
+		452E25961AC70AC100F4C644 /* NBCUniversalHack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 452E25941AC70AC100F4C644 /* NBCUniversalHack.xcdatamodeld */; };
+		452E25991AC70AC100F4C644 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 452E25981AC70AC100F4C644 /* ViewController.mm */; };
+		452E259C1AC70AC100F4C644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452E259A1AC70AC100F4C644 /* Main.storyboard */; };
+		452E259E1AC70AC100F4C644 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452E259D1AC70AC100F4C644 /* Images.xcassets */; };
+		452E25A11AC70AC100F4C644 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 452E259F1AC70AC100F4C644 /* LaunchScreen.xib */; };
+		452E25AD1AC70AC100F4C644 /* NBCUniversalHackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 452E25AC1AC70AC100F4C644 /* NBCUniversalHackTests.m */; };
+		452E25B81AC70B2300F4C644 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452E25B71AC70B2300F4C644 /* opencv2.framework */; };
+		452E25BA1AC70B5100F4C644 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452E25B91AC70B5100F4C644 /* Accelerate.framework */; };
+		452E25BC1AC70B5500F4C644 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452E25BB1AC70B5500F4C644 /* AssetsLibrary.framework */; };
+		452E25BE1AC70B5D00F4C644 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452E25BD1AC70B5D00F4C644 /* AVFoundation.framework */; };
+		452E25C01AC70B6300F4C644 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452E25BF1AC70B6300F4C644 /* CoreGraphics.framework */; };
+		452E25C21AC70B6A00F4C644 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452E25C11AC70B6A00F4C644 /* CoreImage.framework */; };
+		452E25C41AC70B6F00F4C644 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452E25C31AC70B6F00F4C644 /* CoreMedia.framework */; };
+		452E25C61AC70B7900F4C644 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452E25C51AC70B7900F4C644 /* CoreVideo.framework */; };
+		452E25C81AC70B7E00F4C644 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452E25C71AC70B7E00F4C644 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		452E25A71AC70AC100F4C644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 452E25821AC70AC100F4C644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 452E25891AC70AC100F4C644;
+			remoteInfo = NBCUniversalHack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		452E258A1AC70AC100F4C644 /* NBCUniversalHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBCUniversalHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		452E258E1AC70AC100F4C644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452E258F1AC70AC100F4C644 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		452E25911AC70AC100F4C644 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		452E25921AC70AC100F4C644 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		452E25951AC70AC100F4C644 /* NBCUniversalHack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NBCUniversalHack.xcdatamodel; sourceTree = "<group>"; };
+		452E25971AC70AC100F4C644 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		452E25981AC70AC100F4C644 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		452E259B1AC70AC100F4C644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		452E259D1AC70AC100F4C644 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		452E25A01AC70AC100F4C644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		452E25A61AC70AC100F4C644 /* NBCUniversalHackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBCUniversalHackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		452E25AB1AC70AC100F4C644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452E25AC1AC70AC100F4C644 /* NBCUniversalHackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBCUniversalHackTests.m; sourceTree = "<group>"; };
+		452E25B71AC70B2300F4C644 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		452E25B91AC70B5100F4C644 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		452E25BB1AC70B5500F4C644 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		452E25BD1AC70B5D00F4C644 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		452E25BF1AC70B6300F4C644 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		452E25C11AC70B6A00F4C644 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		452E25C31AC70B6F00F4C644 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		452E25C51AC70B7900F4C644 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		452E25C71AC70B7E00F4C644 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		452E25871AC70AC100F4C644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452E25C81AC70B7E00F4C644 /* QuartzCore.framework in Frameworks */,
+				452E25C61AC70B7900F4C644 /* CoreVideo.framework in Frameworks */,
+				452E25C41AC70B6F00F4C644 /* CoreMedia.framework in Frameworks */,
+				452E25C21AC70B6A00F4C644 /* CoreImage.framework in Frameworks */,
+				452E25C01AC70B6300F4C644 /* CoreGraphics.framework in Frameworks */,
+				452E25BE1AC70B5D00F4C644 /* AVFoundation.framework in Frameworks */,
+				452E25BC1AC70B5500F4C644 /* AssetsLibrary.framework in Frameworks */,
+				452E25BA1AC70B5100F4C644 /* Accelerate.framework in Frameworks */,
+				452E25B81AC70B2300F4C644 /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		452E25A31AC70AC100F4C644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		452E25811AC70AC100F4C644 = {
+			isa = PBXGroup;
+			children = (
+				452E25B61AC70AC900F4C644 /* Frameworks */,
+				452E258C1AC70AC100F4C644 /* NBCUniversalHack */,
+				452E25A91AC70AC100F4C644 /* NBCUniversalHackTests */,
+				452E258B1AC70AC100F4C644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		452E258B1AC70AC100F4C644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				452E258A1AC70AC100F4C644 /* NBCUniversalHack.app */,
+				452E25A61AC70AC100F4C644 /* NBCUniversalHackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		452E258C1AC70AC100F4C644 /* NBCUniversalHack */ = {
+			isa = PBXGroup;
+			children = (
+				452E25911AC70AC100F4C644 /* AppDelegate.h */,
+				452E25921AC70AC100F4C644 /* AppDelegate.m */,
+				452E25971AC70AC100F4C644 /* ViewController.h */,
+				452E25981AC70AC100F4C644 /* ViewController.mm */,
+				452E259A1AC70AC100F4C644 /* Main.storyboard */,
+				452E259D1AC70AC100F4C644 /* Images.xcassets */,
+				452E259F1AC70AC100F4C644 /* LaunchScreen.xib */,
+				452E25941AC70AC100F4C644 /* NBCUniversalHack.xcdatamodeld */,
+				452E258D1AC70AC100F4C644 /* Supporting Files */,
+			);
+			path = NBCUniversalHack;
+			sourceTree = "<group>";
+		};
+		452E258D1AC70AC100F4C644 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				452E258E1AC70AC100F4C644 /* Info.plist */,
+				452E258F1AC70AC100F4C644 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		452E25A91AC70AC100F4C644 /* NBCUniversalHackTests */ = {
+			isa = PBXGroup;
+			children = (
+				452E25AC1AC70AC100F4C644 /* NBCUniversalHackTests.m */,
+				452E25AA1AC70AC100F4C644 /* Supporting Files */,
+			);
+			path = NBCUniversalHackTests;
+			sourceTree = "<group>";
+		};
+		452E25AA1AC70AC100F4C644 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				452E25AB1AC70AC100F4C644 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		452E25B61AC70AC900F4C644 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				452E25C71AC70B7E00F4C644 /* QuartzCore.framework */,
+				452E25C51AC70B7900F4C644 /* CoreVideo.framework */,
+				452E25C31AC70B6F00F4C644 /* CoreMedia.framework */,
+				452E25C11AC70B6A00F4C644 /* CoreImage.framework */,
+				452E25BF1AC70B6300F4C644 /* CoreGraphics.framework */,
+				452E25BD1AC70B5D00F4C644 /* AVFoundation.framework */,
+				452E25BB1AC70B5500F4C644 /* AssetsLibrary.framework */,
+				452E25B91AC70B5100F4C644 /* Accelerate.framework */,
+				452E25B71AC70B2300F4C644 /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		452E25891AC70AC100F4C644 /* NBCUniversalHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 452E25B01AC70AC100F4C644 /* Build configuration list for PBXNativeTarget "NBCUniversalHack" */;
+			buildPhases = (
+				452E25861AC70AC100F4C644 /* Sources */,
+				452E25871AC70AC100F4C644 /* Frameworks */,
+				452E25881AC70AC100F4C644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NBCUniversalHack;
+			productName = NBCUniversalHack;
+			productReference = 452E258A1AC70AC100F4C644 /* NBCUniversalHack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		452E25A51AC70AC100F4C644 /* NBCUniversalHackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 452E25B31AC70AC100F4C644 /* Build configuration list for PBXNativeTarget "NBCUniversalHackTests" */;
+			buildPhases = (
+				452E25A21AC70AC100F4C644 /* Sources */,
+				452E25A31AC70AC100F4C644 /* Frameworks */,
+				452E25A41AC70AC100F4C644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				452E25A81AC70AC100F4C644 /* PBXTargetDependency */,
+			);
+			name = NBCUniversalHackTests;
+			productName = NBCUniversalHackTests;
+			productReference = 452E25A61AC70AC100F4C644 /* NBCUniversalHackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		452E25821AC70AC100F4C644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = LLT;
+				TargetAttributes = {
+					452E25891AC70AC100F4C644 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					452E25A51AC70AC100F4C644 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 452E25891AC70AC100F4C644;
+					};
+				};
+			};
+			buildConfigurationList = 452E25851AC70AC100F4C644 /* Build configuration list for PBXProject "NBCUniversalHack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 452E25811AC70AC100F4C644;
+			productRefGroup = 452E258B1AC70AC100F4C644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				452E25891AC70AC100F4C644 /* NBCUniversalHack */,
+				452E25A51AC70AC100F4C644 /* NBCUniversalHackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		452E25881AC70AC100F4C644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452E259C1AC70AC100F4C644 /* Main.storyboard in Resources */,
+				452E25A11AC70AC100F4C644 /* LaunchScreen.xib in Resources */,
+				452E259E1AC70AC100F4C644 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		452E25A41AC70AC100F4C644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		452E25861AC70AC100F4C644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452E25931AC70AC100F4C644 /* AppDelegate.m in Sources */,
+				452E25901AC70AC100F4C644 /* main.m in Sources */,
+				452E25991AC70AC100F4C644 /* ViewController.mm in Sources */,
+				452E25961AC70AC100F4C644 /* NBCUniversalHack.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		452E25A21AC70AC100F4C644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452E25AD1AC70AC100F4C644 /* NBCUniversalHackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		452E25A81AC70AC100F4C644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 452E25891AC70AC100F4C644 /* NBCUniversalHack */;
+			targetProxy = 452E25A71AC70AC100F4C644 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		452E259A1AC70AC100F4C644 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				452E259B1AC70AC100F4C644 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		452E259F1AC70AC100F4C644 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				452E25A01AC70AC100F4C644 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		452E25AE1AC70AC100F4C644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		452E25AF1AC70AC100F4C644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		452E25B11AC70AC100F4C644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = NBCUniversalHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		452E25B21AC70AC100F4C644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = NBCUniversalHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		452E25B41AC70AC100F4C644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NBCUniversalHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBCUniversalHack.app/NBCUniversalHack";
+			};
+			name = Debug;
+		};
+		452E25B51AC70AC100F4C644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NBCUniversalHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBCUniversalHack.app/NBCUniversalHack";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		452E25851AC70AC100F4C644 /* Build configuration list for PBXProject "NBCUniversalHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452E25AE1AC70AC100F4C644 /* Debug */,
+				452E25AF1AC70AC100F4C644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		452E25B01AC70AC100F4C644 /* Build configuration list for PBXNativeTarget "NBCUniversalHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452E25B11AC70AC100F4C644 /* Debug */,
+				452E25B21AC70AC100F4C644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		452E25B31AC70AC100F4C644 /* Build configuration list for PBXNativeTarget "NBCUniversalHackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452E25B41AC70AC100F4C644 /* Debug */,
+				452E25B51AC70AC100F4C644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		452E25941AC70AC100F4C644 /* NBCUniversalHack.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				452E25951AC70AC100F4C644 /* NBCUniversalHack.xcdatamodel */,
+			);
+			currentVersion = 452E25951AC70AC100F4C644 /* NBCUniversalHack.xcdatamodel */;
+			path = NBCUniversalHack.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 452E25821AC70AC100F4C644 /* Project object */;
+}

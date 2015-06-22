@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D72i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9aG-oC-pXt">
+                                <rect key="frame" x="277" y="423" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startDetecting:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="UG0-TA-Box"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gpg-Nc-5Mt">
+                                <rect key="frame" x="277" y="461" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eik-Ad-oQf">
+                                <rect key="frame" x="0.0" y="-7" width="600" height="422"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="422" id="78i-hc-8U1"/>
+                                    <constraint firstAttribute="width" constant="422" id="MjS-1v-FlM"/>
+                                    <constraint firstAttribute="width" constant="600" id="NNm-MT-pVs"/>
+                                    <constraint firstAttribute="height" constant="422" id="TxH-i1-PCd"/>
+                                    <constraint firstAttribute="height" constant="422" id="ibj-6n-q7r"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="MjS-1v-FlM"/>
+                                        <exclude reference="TxH-i1-PCd"/>
+                                        <exclude reference="ibj-6n-q7r"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Gpg-Nc-5Mt" firstAttribute="top" secondItem="9aG-oC-pXt" secondAttribute="bottom" constant="8" symbolic="YES" id="40F-Ag-BYC"/>
+                            <constraint firstAttribute="centerX" secondItem="Gpg-Nc-5Mt" secondAttribute="centerX" id="PCb-lI-68S"/>
+                            <constraint firstAttribute="trailing" secondItem="Eik-Ad-oQf" secondAttribute="trailing" id="Wuk-QA-ixM"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Gpg-Nc-5Mt" secondAttribute="bottom" constant="109" id="Zk0-i7-J6f"/>
+                            <constraint firstItem="Eik-Ad-oQf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="qZS-Oa-f51"/>
+                            <constraint firstAttribute="centerX" secondItem="9aG-oC-pXt" secondAttribute="centerX" id="sMx-Kn-HqN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="previewView" destination="Eik-Ad-oQf" id="DO4-rl-Edp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

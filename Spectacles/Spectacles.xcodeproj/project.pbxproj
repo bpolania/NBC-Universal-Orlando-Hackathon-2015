@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45307A3A1AC76E2600A176BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45307A391AC76E2600A176BC /* main.m */; };
+		45307A3D1AC76E2600A176BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45307A3C1AC76E2600A176BC /* AppDelegate.m */; };
+		45307A401AC76E2600A176BC /* Spectacles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45307A3E1AC76E2600A176BC /* Spectacles.xcdatamodeld */; };
+		45307A431AC76E2600A176BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45307A421AC76E2600A176BC /* ViewController.m */; };
+		45307A461AC76E2600A176BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45307A441AC76E2600A176BC /* Main.storyboard */; };
+		45307A481AC76E2600A176BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45307A471AC76E2600A176BC /* Images.xcassets */; };
+		45307A4B1AC76E2600A176BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45307A491AC76E2600A176BC /* LaunchScreen.xib */; };
+		45307A571AC76E2600A176BC /* SpectaclesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45307A561AC76E2600A176BC /* SpectaclesTests.m */; };
+		4534BCEA1AC7728900B3CD7C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4534BCE91AC7728900B3CD7C /* ImageIO.framework */; };
+		4534BCEC1AC7729200B3CD7C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4534BCEB1AC7729200B3CD7C /* QuartzCore.framework */; };
+		4534BCEE1AC7729A00B3CD7C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4534BCED1AC7729A00B3CD7C /* CoreMedia.framework */; };
+		4534BCF01AC772A400B3CD7C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4534BCEF1AC772A400B3CD7C /* AssetsLibrary.framework */; };
+		4534BCF21AC772AE00B3CD7C /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4534BCF11AC772AE00B3CD7C /* CoreImage.framework */; };
+		4534BCF41AC772B500B3CD7C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4534BCF31AC772B500B3CD7C /* AVFoundation.framework */; };
+		4534BCF61AC772BD00B3CD7C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4534BCF51AC772BD00B3CD7C /* CoreVideo.framework */; };
+		4534BCF81AC772C300B3CD7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4534BCF71AC772C300B3CD7C /* CoreGraphics.framework */; };
+		4534BD001AC77C1000B3CD7C /* libPixmobConnect-Public.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4534BCFF1AC77C1000B3CD7C /* libPixmobConnect-Public.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45307A511AC76E2600A176BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45307A2C1AC76E2600A176BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45307A331AC76E2600A176BC;
+			remoteInfo = Spectacles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45307A341AC76E2600A176BC /* Spectacles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spectacles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45307A381AC76E2600A176BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45307A391AC76E2600A176BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45307A3B1AC76E2600A176BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45307A3C1AC76E2600A176BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45307A3F1AC76E2600A176BC /* Spectacles.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spectacles.xcdatamodel; sourceTree = "<group>"; };
+		45307A411AC76E2600A176BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45307A421AC76E2600A176BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45307A451AC76E2600A176BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45307A471AC76E2600A176BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45307A4A1AC76E2600A176BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		45307A501AC76E2600A176BC /* SpectaclesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectaclesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45307A551AC76E2600A176BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45307A561AC76E2600A176BC /* SpectaclesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpectaclesTests.m; sourceTree = "<group>"; };
+		4534BCE91AC7728900B3CD7C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		4534BCEB1AC7729200B3CD7C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4534BCED1AC7729A00B3CD7C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4534BCEF1AC772A400B3CD7C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		4534BCF11AC772AE00B3CD7C /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		4534BCF31AC772B500B3CD7C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4534BCF51AC772BD00B3CD7C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		4534BCF71AC772C300B3CD7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4534BCFC1AC77C1000B3CD7C /* PIXConnectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIXConnectController.h; sourceTree = "<group>"; };
+		4534BCFD1AC77C1000B3CD7C /* PIXConnectControlParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIXConnectControlParameters.h; sourceTree = "<group>"; };
+		4534BCFE1AC77C1000B3CD7C /* PIXConnectPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIXConnectPixel.h; sourceTree = "<group>"; };
+		4534BCFF1AC77C1000B3CD7C /* libPixmobConnect-Public.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPixmobConnect-Public.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45307A311AC76E2600A176BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4534BCF81AC772C300B3CD7C /* CoreGraphics.framework in Frameworks */,
+				4534BCF61AC772BD00B3CD7C /* CoreVideo.framework in Frameworks */,
+				4534BCF41AC772B500B3CD7C /* AVFoundation.framework in Frameworks */,
+				4534BD001AC77C1000B3CD7C /* libPixmobConnect-Public.a in Frameworks */,
+				4534BCF21AC772AE00B3CD7C /* CoreImage.framework in Frameworks */,
+				4534BCF01AC772A400B3CD7C /* AssetsLibrary.framework in Frameworks */,
+				4534BCEE1AC7729A00B3CD7C /* CoreMedia.framework in Frameworks */,
+				4534BCEC1AC7729200B3CD7C /* QuartzCore.framework in Frameworks */,
+				4534BCEA1AC7728900B3CD7C /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45307A4D1AC76E2600A176BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45307A2B1AC76E2600A176BC = {
+			isa = PBXGroup;
+			children = (
+				4534BD011AC77C1300B3CD7C /* Pixmob */,
+				4534BCF91AC77BEF00B3CD7C /* Frameworks */,
+				45307A361AC76E2600A176BC /* Spectacles */,
+				45307A531AC76E2600A176BC /* SpectaclesTests */,
+				45307A351AC76E2600A176BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45307A351AC76E2600A176BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45307A341AC76E2600A176BC /* Spectacles.app */,
+				45307A501AC76E2600A176BC /* SpectaclesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45307A361AC76E2600A176BC /* Spectacles */ = {
+			isa = PBXGroup;
+			children = (
+				45307A3B1AC76E2600A176BC /* AppDelegate.h */,
+				45307A3C1AC76E2600A176BC /* AppDelegate.m */,
+				45307A411AC76E2600A176BC /* ViewController.h */,
+				45307A421AC76E2600A176BC /* ViewController.m */,
+				45307A441AC76E2600A176BC /* Main.storyboard */,
+				45307A471AC76E2600A176BC /* Images.xcassets */,
+				45307A491AC76E2600A176BC /* LaunchScreen.xib */,
+				45307A3E1AC76E2600A176BC /* Spectacles.xcdatamodeld */,
+				45307A371AC76E2600A176BC /* Supporting Files */,
+			);
+			path = Spectacles;
+			sourceTree = "<group>";
+		};
+		45307A371AC76E2600A176BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45307A381AC76E2600A176BC /* Info.plist */,
+				45307A391AC76E2600A176BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45307A531AC76E2600A176BC /* SpectaclesTests */ = {
+			isa = PBXGroup;
+			children = (
+				45307A561AC76E2600A176BC /* SpectaclesTests.m */,
+				45307A541AC76E2600A176BC /* Supporting Files */,
+			);
+			path = SpectaclesTests;
+			sourceTree = "<group>";
+		};
+		45307A541AC76E2600A176BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45307A551AC76E2600A176BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4534BCF91AC77BEF00B3CD7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4534BCF71AC772C300B3CD7C /* CoreGraphics.framework */,
+				4534BCF51AC772BD00B3CD7C /* CoreVideo.framework */,
+				4534BCF31AC772B500B3CD7C /* AVFoundation.framework */,
+				4534BCF11AC772AE00B3CD7C /* CoreImage.framework */,
+				4534BCEF1AC772A400B3CD7C /* AssetsLibrary.framework */,
+				4534BCED1AC7729A00B3CD7C /* CoreMedia.framework */,
+				4534BCEB1AC7729200B3CD7C /* QuartzCore.framework */,
+				4534BCE91AC7728900B3CD7C /* ImageIO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4534BCFA1AC77C1000B3CD7C /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				4534BCFB1AC77C1000B3CD7C /* PixmobConnect-Public */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		4534BCFB1AC77C1000B3CD7C /* PixmobConnect-Public */ = {
+			isa = PBXGroup;
+			children = (
+				4534BCFC1AC77C1000B3CD7C /* PIXConnectController.h */,
+				4534BCFD1AC77C1000B3CD7C /* PIXConnectControlParameters.h */,
+				4534BCFE1AC77C1000B3CD7C /* PIXConnectPixel.h */,
+			);
+			path = "PixmobConnect-Public";
+			sourceTree = "<group>";
+		};
+		4534BD011AC77C1300B3CD7C /* Pixmob */ = {
+			isa = PBXGroup;
+			children = (
+				4534BCFF1AC77C1000B3CD7C /* libPixmobConnect-Public.a */,
+				4534BCFA1AC77C1000B3CD7C /* Headers */,
+			);
+			name = Pixmob;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45307A331AC76E2600A176BC /* Spectacles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45307A5A1AC76E2600A176BC /* Build configuration list for PBXNativeTarget "Spectacles" */;
+			buildPhases = (
+				45307A301AC76E2600A176BC /* Sources */,
+				45307A311AC76E2600A176BC /* Frameworks */,
+				45307A321AC76E2600A176BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spectacles;
+			productName = Spectacles;
+			productReference = 45307A341AC76E2600A176BC /* Spectacles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45307A4F1AC76E2600A176BC /* SpectaclesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45307A5D1AC76E2600A176BC /* Build configuration list for PBXNativeTarget "SpectaclesTests" */;
+			buildPhases = (
+				45307A4C1AC76E2600A176BC /* Sources */,
+				45307A4D1AC76E2600A176BC /* Frameworks */,
+				45307A4E1AC76E2600A176BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45307A521AC76E2600A176BC /* PBXTargetDependency */,
+			);
+			name = SpectaclesTests;
+			productName = SpectaclesTests;
+			productReference = 45307A501AC76E2600A176BC /* SpectaclesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45307A2C1AC76E2600A176BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = LLT;
+				TargetAttributes = {
+					45307A331AC76E2600A176BC = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					45307A4F1AC76E2600A176BC = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 45307A331AC76E2600A176BC;
+					};
+				};
+			};
+			buildConfigurationList = 45307A2F1AC76E2600A176BC /* Build configuration list for PBXProject "Spectacles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45307A2B1AC76E2600A176BC;
+			productRefGroup = 45307A351AC76E2600A176BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45307A331AC76E2600A176BC /* Spectacles */,
+				45307A4F1AC76E2600A176BC /* SpectaclesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45307A321AC76E2600A176BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45307A461AC76E2600A176BC /* Main.storyboard in Resources */,
+				45307A4B1AC76E2600A176BC /* LaunchScreen.xib in Resources */,
+				45307A481AC76E2600A176BC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45307A4E1AC76E2600A176BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45307A301AC76E2600A176BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45307A3D1AC76E2600A176BC /* AppDelegate.m in Sources */,
+				45307A401AC76E2600A176BC /* Spectacles.xcdatamodeld in Sources */,
+				45307A431AC76E2600A176BC /* ViewController.m in Sources */,
+				45307A3A1AC76E2600A176BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45307A4C1AC76E2600A176BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45307A571AC76E2600A176BC /* SpectaclesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45307A521AC76E2600A176BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45307A331AC76E2600A176BC /* Spectacles */;
+			targetProxy = 45307A511AC76E2600A176BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45307A441AC76E2600A176BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45307A451AC76E2600A176BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45307A491AC76E2600A176BC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45307A4A1AC76E2600A176BC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45307A581AC76E2600A176BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45307A591AC76E2600A176BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45307A5B1AC76E2600A176BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/Headers",
+				);
+				INFOPLIST_FILE = Spectacles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45307A5C1AC76E2600A176BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/Headers",
+				);
+				INFOPLIST_FILE = Spectacles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		45307A5E1AC76E2600A176BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpectaclesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spectacles.app/Spectacles";
+			};
+			name = Debug;
+		};
+		45307A5F1AC76E2600A176BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpectaclesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spectacles.app/Spectacles";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45307A2F1AC76E2600A176BC /* Build configuration list for PBXProject "Spectacles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45307A581AC76E2600A176BC /* Debug */,
+				45307A591AC76E2600A176BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45307A5A1AC76E2600A176BC /* Build configuration list for PBXNativeTarget "Spectacles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45307A5B1AC76E2600A176BC /* Debug */,
+				45307A5C1AC76E2600A176BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45307A5D1AC76E2600A176BC /* Build configuration list for PBXNativeTarget "SpectaclesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45307A5E1AC76E2600A176BC /* Debug */,
+				45307A5F1AC76E2600A176BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		45307A3E1AC76E2600A176BC /* Spectacles.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				45307A3F1AC76E2600A176BC /* Spectacles.xcdatamodel */,
+			);
+			currentVersion = 45307A3F1AC76E2600A176BC /* Spectacles.xcdatamodel */;
+			path = Spectacles.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 45307A2C1AC76E2600A176BC /* Project object */;
+}

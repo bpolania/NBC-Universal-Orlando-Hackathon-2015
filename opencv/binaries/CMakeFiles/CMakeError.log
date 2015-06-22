@@ -1,0 +1,240 @@
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3721680253/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3721680253.dir/build.make CMakeFiles/cmTryCompileExec3721680253.dir/build
+/Volumes/cmake-3.2.1-Darwin-universal/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3721680253.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTryCompileExec3721680253.dir/CheckIncludeFile.c.o   -c /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'linux/videodev.h' file not found
+#include <linux/videodev.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3721680253.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec3721680253/fast] Error 2
+
+
+Determining if the include file linux/videodev2.h exists failed with the following output:
+Change Dir: /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3775823719/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3775823719.dir/build.make CMakeFiles/cmTryCompileExec3775823719.dir/build
+/Volumes/cmake-3.2.1-Darwin-universal/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3775823719.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTryCompileExec3775823719.dir/CheckIncludeFile.c.o   -c /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'linux/videodev2.h' file not found
+#include <linux/videodev2.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3775823719.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec3775823719/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1252908946/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1252908946.dir/build.make CMakeFiles/cmTryCompileExec1252908946.dir/build
+/Volumes/cmake-3.2.1-Darwin-universal/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1252908946.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTryCompileExec1252908946.dir/CheckIncludeFile.c.o   -c /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/videoio.h' file not found
+#include <sys/videoio.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1252908946.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec1252908946/fast] Error 2
+
+
+Determining if the include file libavformat/avformat.h exists failed with the following output:
+Change Dir: /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2791065311/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2791065311.dir/build.make CMakeFiles/cmTryCompileExec2791065311.dir/build
+/Volumes/cmake-3.2.1-Darwin-universal/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2791065311.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTryCompileExec2791065311.dir/CheckIncludeFile.c.o   -c /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'libavformat/avformat.h' file not found
+#include <libavformat/avformat.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2791065311.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec2791065311/fast] Error 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec234895304/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec234895304.dir/build.make CMakeFiles/cmTryCompileExec234895304.dir/build
+/Volumes/cmake-3.2.1-Darwin-universal/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec234895304.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTryCompileExec234895304.dir/CheckIncludeFile.c.o   -c /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'ffmpeg/avformat.h' file not found
+#include <ffmpeg/avformat.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec234895304.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec234895304/fast] Error 2
+
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec988436501/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec988436501.dir/build.make CMakeFiles/cmTryCompileExec988436501.dir/build
+/Volumes/cmake-3.2.1-Darwin-universal/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec988436501.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTryCompileExec988436501.dir/CheckIncludeFile.c.o   -c /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'linux/videodev.h' file not found
+#include <linux/videodev.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec988436501.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec988436501/fast] Error 2
+
+
+Determining if the include file linux/videodev2.h exists failed with the following output:
+Change Dir: /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3887276139/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3887276139.dir/build.make CMakeFiles/cmTryCompileExec3887276139.dir/build
+/Volumes/cmake-3.2.1-Darwin-universal/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3887276139.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTryCompileExec3887276139.dir/CheckIncludeFile.c.o   -c /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'linux/videodev2.h' file not found
+#include <linux/videodev2.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3887276139.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec3887276139/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3293065327/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3293065327.dir/build.make CMakeFiles/cmTryCompileExec3293065327.dir/build
+/Volumes/cmake-3.2.1-Darwin-universal/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3293065327.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTryCompileExec3293065327.dir/CheckIncludeFile.c.o   -c /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/videoio.h' file not found
+#include <sys/videoio.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3293065327.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec3293065327/fast] Error 2
+
+
+Determining if the include file libavformat/avformat.h exists failed with the following output:
+Change Dir: /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec216444635/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec216444635.dir/build.make CMakeFiles/cmTryCompileExec216444635.dir/build
+/Volumes/cmake-3.2.1-Darwin-universal/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec216444635.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTryCompileExec216444635.dir/CheckIncludeFile.c.o   -c /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'libavformat/avformat.h' file not found
+#include <libavformat/avformat.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec216444635.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec216444635/fast] Error 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2684103563/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2684103563.dir/build.make CMakeFiles/cmTryCompileExec2684103563.dir/build
+/Volumes/cmake-3.2.1-Darwin-universal/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2684103563.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTryCompileExec2684103563.dir/CheckIncludeFile.c.o   -c /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'ffmpeg/avformat.h' file not found
+#include <ffmpeg/avformat.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2684103563.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec2684103563/fast] Error 2
+
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec681068367/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec681068367.dir/build.make CMakeFiles/cmTryCompileExec681068367.dir/build
+/Volumes/cmake-3.2.1-Darwin-universal/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec681068367.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTryCompileExec681068367.dir/CheckIncludeFile.c.o   -c /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'linux/videodev.h' file not found
+#include <linux/videodev.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec681068367.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec681068367/fast] Error 2
+
+
+Determining if the include file linux/videodev2.h exists failed with the following output:
+Change Dir: /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3253849013/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3253849013.dir/build.make CMakeFiles/cmTryCompileExec3253849013.dir/build
+/Volumes/cmake-3.2.1-Darwin-universal/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3253849013.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTryCompileExec3253849013.dir/CheckIncludeFile.c.o   -c /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'linux/videodev2.h' file not found
+#include <linux/videodev2.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3253849013.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec3253849013/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3361127636/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3361127636.dir/build.make CMakeFiles/cmTryCompileExec3361127636.dir/build
+/Volumes/cmake-3.2.1-Darwin-universal/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3361127636.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTryCompileExec3361127636.dir/CheckIncludeFile.c.o   -c /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/videoio.h' file not found
+#include <sys/videoio.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3361127636.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec3361127636/fast] Error 2
+
+
+Determining if the include file libavformat/avformat.h exists failed with the following output:
+Change Dir: /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2402478453/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2402478453.dir/build.make CMakeFiles/cmTryCompileExec2402478453.dir/build
+/Volumes/cmake-3.2.1-Darwin-universal/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2402478453.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTryCompileExec2402478453.dir/CheckIncludeFile.c.o   -c /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'libavformat/avformat.h' file not found
+#include <libavformat/avformat.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2402478453.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec2402478453/fast] Error 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3269139826/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3269139826.dir/build.make CMakeFiles/cmTryCompileExec3269139826.dir/build
+/Volumes/cmake-3.2.1-Darwin-universal/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3269139826.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTryCompileExec3269139826.dir/CheckIncludeFile.c.o   -c /Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/binaries/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'ffmpeg/avformat.h' file not found
+#include <ffmpeg/avformat.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3269139826.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec3269139826/fast] Error 2
+
+

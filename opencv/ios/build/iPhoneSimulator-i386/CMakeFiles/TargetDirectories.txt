@@ -1,0 +1,9 @@
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-i386/modules/world/CMakeFiles/opencv_world.dir
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-i386/3rdparty/libpng/CMakeFiles/libpng.dir
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-i386/CMakeFiles/uninstall.dir
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-i386/CMakeFiles/opencv_modules.dir
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-i386/3rdparty/zlib/CMakeFiles/zlib.dir
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-i386/3rdparty/libjpeg/CMakeFiles/libjpeg.dir
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-i386/3rdparty/zlib/CMakeFiles/ALL_BUILD.dir
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-i386/3rdparty/zlib/CMakeFiles/ZERO_CHECK.dir
+/Users/bpolania/hackathons/NBC-Universal-Orlando-032015/opencv/ios/build/iPhoneSimulator-i386/modules/world/CMakeFiles/opencv_world_object.dir
